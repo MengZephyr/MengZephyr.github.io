@@ -1,0 +1,172 @@
+%Meng Zephyr
+\documentclass[11pt,letterpaper]{report}
+
+\usepackage[T1]{fontenc} % output T1 font encoding (8-bit) so accented characters are a single glyph
+\usepackage[utf8]{inputenc} % allow input of utf-8 encoded characters
+\usepackage[strict,autostyle]{csquotes} % smart and nestable quote marks
+\usepackage[USenglish]{babel} % automatically regionalize hyphens, quote marks, etc
+\usepackage{microtype} % improves text appearance with kerning, etc
+\usepackage{datetime} % enable formatting of date output
+\usepackage{tabto} % make nice tabbing
+\usepackage{hyperref} % enable hyperlinks and pdf metadata
+\usepackage{geometry} % manually set page margins
+\usepackage{enumitem} % enumerate with [resume] option
+\usepackage{titlesec} % allow custom section fonts
+
+% what is your name?
+\newcommand{\myname}{Meng Zhang}
+
+% define a default font face and set it as the body font
+\usepackage{crimson} % document's serif font
+\usepackage{helvet}  % document's sans serif font
+
+% define how far to tab for list items with left-aligned date - different font faces need different widths
+\newcommand{\listtabwidth}{1.75cm}
+
+% set name font to title the document
+\newcommand{\namefont}[1]{{\normalfont\bfseries\Huge{#1}}}
+
+% set section heading fonts and before/after spacing
+\SetTracking{encoding=*}{20}
+\titleformat{\section}{\sffamily\small\bfseries\lsstyle\uppercase}{}{}{}{}
+\titlespacing{\section}{0pt}{24pt plus 4pt minus 2pt}{12pt plus 2pt minus 2pt}
+
+% set subsection heading fonts and before/after spacing
+\titleformat{\subsection}{\sffamily\footnotesize\bfseries}{}{}{}{}
+\titlespacing{\subsection}{0pt}{12pt plus 4pt minus 2pt}{8pt plus 2pt minus 2pt}
+
+% set page margins
+\geometry{body={6.5in, 9.0in},
+		  left=1.0in,
+		  top=1.0in}
+
+% prevent paragraph indentation
+\setlength\parindent{0em}
+
+% define space between list items
+\newcommand{\listitemspace}{0.15em}
+
+% make unordered lists without bullets and use compact spacing
+\renewenvironment{itemize}
+{\begin{list}{}{\setlength{\leftmargin}{0em}
+				\setlength{\parskip}{0em}
+				\setlength{\itemsep}{\listitemspace}
+				\setlength{\parsep}{\listitemspace}}}
+{\end{list}}
+
+% make tabbed lists so content is left-aligned next to years
+\TabPositions{\listtabwidth}
+\newlist{tablist}{description}{2}
+\setlist[tablist]{leftmargin=\listtabwidth,
+	labelindent=0em,
+	topsep=0em,
+	partopsep=0em,
+	itemsep=\listitemspace,
+	parsep=\listitemspace,
+	font=\normalfont}
+
+% print the month and year only when using \today
+\newdateformat{monthyeardate}{\monthname[\THEMONTH] \THEYEAR}
+
+% define hyperlink appearance and metadata for pdf properties
+%\hypersetup{
+%	colorlinks = true,
+%	urlcolor = black,
+%	pdfauthor = {\myname},
+%	pdfkeywords = {3D modeling, reconstruction, texture mapping, synthesis},
+%	pdftitle = {\myname},
+%%	pdfsubject = {Curriculum Vitae},
+%%	pdfpagemode = UseNone
+%}
+
+\begin{document}
+\raggedright
+
+% display name as the document title
+\namefont{\myname}
+
+% contact info
+\vspace{1em}
+\begin{minipage}[t]{0.495\textwidth}
+  Ph.D Student \\
+  State Key Lab of CAD \& CG\\
+  Computer Science, Zhejiang University \\
+\end{minipage}
+\begin{minipage}[t]{0.495\textwidth}
+  Email: lynnzephyr@gmail.com \\
+  Web: https://mengzephyr.com \\
+  Phone: +86 139 6811 0397
+\end{minipage}
+\vspace{1em}
+
+
+
+\section*{Education}
+
+\begin{tablist}
+	
+\item[Ph.D. Student] \tab Zhejiang University, since Sep., 2013 \\
+					   \tab Computer Science, State Key Lab of CAD \& CG \\ 
+                     \tab Adviser: Kun Zhou 
+                  
+\item[M.S.]  \tab \tab Xidian University, 2013 \\
+			  \tab Telecommunication Engineering, State Key Lab of ISN \\
+			  \tab Advisor: Guang Jiang 
+
+\item[B.S.]  \tab \tab Xidian University, 2010 \\
+			  \tab Telecommunication Engineering
+
+\end{tablist}
+
+
+\section*{Research Interests}
+
+\begin{itemize}
+
+\item 3D modeling and reconstruction, texture mapping and synthesis
+
+\end{itemize}
+
+
+
+\section*{Publications}
+
+\begin{tablist}
+	
+\item[2018] \tab Meng Zhang, Pan Wu, Hongzhi Wu, YanLin Wen, Youyi Zhen and Kun Zhou, \enquote{Modeling Hair from an RGB\-D Camera.} \textit{ACM Transactions on Graphics}, conditionally accepted.
+
+\item[2017] \tab Meng Zhang, Menglei Chai, Hongzhi Wu, Hao Yang and Kun Zhou, \enquote{A Data-driven Approach to Four\-view Image\-based Hair Modeling.} \textit{ACM Transactions on Graphics, Vol.36(4)}.
+		
+\item[2012] \tab Meng Zhang, Guang Jiang, Chengke Wu and Long Quan, \enquote{Horizontal Plane Detection from 3D Point Clouds of Buildings.} \textit{Electronics Letters, Vol.48(13), pp. 764-765}.
+
+\end{tablist}
+
+\section*{Conference Presentations}
+\begin{itemize}
+\item Technical paper presenting author \tab \textit{Siggraph 2017, in Los Angeles, CA,} \enquote{A Data-driven Approach to Four\-view Image\-based Hair Modeling.}\bigskip
+\end{itemize}
+
+
+\section*{Skills}
+
+\subsection*{programming language}
+
+\begin{itemize}
+	
+\item C++, Matlab, Python
+
+\end{itemize}
+
+
+
+
+% display today's date as Month Year after a vertical space below the end of the text
+%\begin{center}
+%\vspace{6em}
+%\vfill
+%Updated \monthyeardate\today
+%\end{center}
+
+
+
+\end{document}
