@@ -6,7 +6,7 @@ img: m4.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Publication]
 ---
-<center>Meng Zhang, Youyi Zheng </center>
+<center>Meng Zhang and Youyi Zheng </center>
 
 **arXiv: 1811.06229**
 
