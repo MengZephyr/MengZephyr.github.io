@@ -2,7 +2,7 @@
 layout: post
 title: "Hair-GANs: Recovering 3D Hair Structure from a Single Image"
 description: # Add post description (optional)
-img: m4.png # Add image post (optional)
+img: p4.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Publication]
 ---
