@@ -7,6 +7,6 @@ fig-caption: # Add figcaption (optional)
 tags: [Resume]
 ---
 
-I am a Ph.D. candidate in the Graphics & Parallel Systems Lab(GAPS), Zhejiang University, supervised by Prof. Kun Zhou. I received my Bachelor’s degree (in 2010) and Master’s degree (in 2013) from School of Telecommunications Engineering, Xidian University. My research focuses on modeling, reconstruction, texture mapping and synthesis, structure-aware shape analysis, and deep learning.
+I am a Ph.D. candidate in the Graphics & Parallel Systems Lab(GAPS), Zhejiang University, supervised by Prof. Kun Zhou. I received my Bachelor’s degree (in 2010) and Master’s degree (in 2013) from School of Telecommunications Engineering, Xidian University. My research focuses on 3D shape capture, 3D reconstruction, image-based modeling, texture mapping and synthesis.
 
 <center><embed src="/pdf/My-CV.pdf" width="850" height="600"></center>
