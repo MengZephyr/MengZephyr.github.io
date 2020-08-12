@@ -16,5 +16,15 @@ We introduce *Hair-GANs*, an architecture of generative adversarial networks, to
 [Pdf](https://arxiv.org/pdf/1811.06229.pdf){:target="_blank"}
 
 ## BibTex
+@article{zhang2019hair,
+  title={Hair-GAN: Recovering 3D hair structure from a single image using generative adversarial networks},
+  author={Zhang, Meng and Zheng, Youyi},
+  journal={Visual Informatics},
+  volume={3},
+  number={2},
+  pages={102--112},
+  year={2019},
+  publisher={Elsevier}
+}
 
 
