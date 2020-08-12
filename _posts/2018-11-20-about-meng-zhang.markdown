@@ -7,6 +7,6 @@ fig-caption: # Add figcaption (optional)
 tags: [Resume]
 ---
 
-I am now a PostDoc Research Associate in the group of Smart Geometry Processing, University College London, under the supersion of Prof. Niloy Mitra. I got my PhD degree (in 2019) from Zhejiang University, supervised by Prof. Kun Zhou. I received my Bachelor’s degree (in 2010) and Master’s degree (in 2013) from School of Telecommunications Engineering, Xidian University. My research focuses on 3D shape capture, 3D reconstruction, image-based modeling, texture mapping and synthesis.
+I am now a PostDoc Research Associate in [Smart Geometry Processing Group](https://geometry.cs.ucl.ac.uk/index.php), University College London, under the supersion of [Prof. Niloy Mitra](http://www0.cs.ucl.ac.uk/staff/n.mitra/index.html). I got my PhD degree (in 2019) from Zhejiang University, supervised by [Prof. Kun Zhou](http://kunzhou.net/). I received my Bachelor’s degree (in 2010) and Master’s degree (in 2013) from School of Telecommunications Engineering, Xidian University. 
 
-#<center><embed src="/pdf/My-CV.pdf" width="850" height="600"></center>
+I'm interested in Deep Learning, 3D shape capture and reconstruction, image-based modeling, texture mapping and synthesis. 
