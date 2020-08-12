@@ -1,6 +1,6 @@
-title: Hello, world! I'm Meng Zephyr
+title: MengZephyr
 description: > # this means to ignore newlines until "baseurl:"
-  Meng Zephyr(Zhang) is a Ph.D. candidate in the Graphics & Parallel Systems Lab(GAPS), Zhejiang University.
+  Meng Zephyr(Zhang) is a research associate in Smart Geometry Processing Group, University College London.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mengzephyr.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -9,10 +9,10 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Meng Zhang(Zephyr) # add your name
 author-img: me.jpg # add your photo
-about-author: I am a Ph.D. candidate in the Graphics & Parallel Systems Lab(GAPS), Zhejiang University. I am doing research in Computer Graphics. # add description
+about-author: I am a research associate in Smart Geometry Processing Group, University College London. # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: # add your Github handle
+social-github: https://github.com/MengZephyr # add your Github handle
 social-linkedin: # add your Linkedin handle
 social-email: lynnzephyr@gmail.com # add your Email address
 
