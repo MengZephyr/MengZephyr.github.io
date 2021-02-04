@@ -1,6 +1,6 @@
 title: MengZephyr
 description: > # this means to ignore newlines until "baseurl:"
-  Meng Zephyr(Zhang) is a PostDoc Associate Research in Smart Geometry Processing Group, University College London.
+  Meng Zephyr(Zhang) is a PostDoc research associate in Smart Geometry Processing Group, University College London.
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mengzephyr.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
@@ -9,7 +9,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Meng Zhang(Zephyr) # add your name
 author-img: me.jpg # add your photo
-about-author: I am a PostDoc Associate Research in Smart Geometry Processing Group, University College London. # add description
+about-author: I am a PostDoc research associate in Smart Geometry Processing Group, University College London. # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
 social-github: # add your Github handle
