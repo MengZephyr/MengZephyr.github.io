@@ -9,6 +9,7 @@ tags: [Publication]
 <center>Meng Zhang, Tuanfeng Wang, Duygu Ceylan, Niloy J. Mitra</center>
 
 **Eurographics 2021**
+<span style="color:blue">**Honorable Mention Best Paper Award**</span>.
 
 ## Abstract
 Creating fine garment details requires significant efforts and huge computational resources. In contrast, a coarse shape may be easy to acquire in many scenarios (e.g., via low-resolution physically-based simulation, linear blend skinning driven by skeletal motion, portable scanners). In this paper, we show how to enhance, in a data-driven manner, rich yet plausible details starting from a coarse garment geometry. Once the parameterization of the garment is given, we formulate the task as a style transfer problem over the space of associated normal maps. In order to facilitate generalization across garment types and character motions, we introduce a patch-based formulation, that produces high-resolution details by matching a Gram matrix based style loss, to hallucinate geometric details (i.e., wrinkle density and shape). We extensively evaluate our method on a variety of production scenarios and show that our method is simple, light-weight, efficient, and generalizes across underlying garment types, sewing patterns, and body motion. 
