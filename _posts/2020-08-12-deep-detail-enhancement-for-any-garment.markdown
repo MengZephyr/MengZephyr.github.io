@@ -15,7 +15,19 @@ Creating fine garment details requires significant efforts and huge computationa
 
 [Pdf](https://arxiv.org/pdf/2008.04367.pdf){:target="_blank"}, 
 [Webpage](http://geometry.cs.ucl.ac.uk/projects/2021/DeepDetailEnhance/){:target="_blank"}
+[Video](https://www.youtube.com/watch?v=zDdl3Ufbq50&t){:target="_blank"}
+[Paper talk](https://www.youtube.com/watch?v=9kqQpnLZVb4&t){:target="_blank"}
 
 ## BibTex
+@inproceedings{zhang2021deep,
+  title={Deep detail enhancement for any garment},
+  author={Zhang, Meng and Wang, Tuanfeng and Ceylan, Duygu and Mitra, Niloy J},
+  booktitle={Computer Graphics Forum},
+  volume={40},
+  number={2},
+  pages={399--411},
+  year={2021},
+  organization={Wiley Online Library}
+}
 
 
