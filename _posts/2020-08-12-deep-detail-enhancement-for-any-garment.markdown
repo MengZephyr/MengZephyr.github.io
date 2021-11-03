@@ -16,7 +16,8 @@ Creating fine garment details requires significant efforts and huge computationa
 [Pdf](https://arxiv.org/pdf/2008.04367.pdf){:target="_blank"}, <br />
 [Webpage](http://geometry.cs.ucl.ac.uk/projects/2021/DeepDetailEnhance/){:target="_blank"}, <br />
 [Video](https://www.youtube.com/watch?v=zDdl3Ufbq50&t){:target="_blank"}, <br />
-[Paper talk](https://www.youtube.com/watch?v=9kqQpnLZVb4&t){:target="_blank"} 
+[Paper talk](https://www.youtube.com/watch?v=9kqQpnLZVb4&t){:target="_blank"}, <br />
+[Code](https://github.com/MengZephyr/Deep-Detail-Enhancement-for-Any-Garment){:target="_blank"}
 
 ## BibTex
 @inproceedings{zhang2021deep,
