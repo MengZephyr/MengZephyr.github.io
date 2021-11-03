@@ -15,5 +15,9 @@ A vital task of the wider digital human effort is the creation of realistic garm
 
 [Pdf](https://arxiv.org/pdf/2102.11811.pdf){:target="_blank"}, 
 [Webpage](http://geometry.cs.ucl.ac.uk/projects/2021/DynamicNeuralGarments/){:target="_blank"}
+[Fastforward](https://www.youtube.com/watch?v=HmjUwt8bb1Q){:target="_blank"}
+[Supplementary video](https://www.youtube.com/watch?v=UaB-_5v0Ckc&t){:target="_blank"}
+[Paper talk](https://www.youtube.com/watch?v=HN5uKRROmBs){:target="_blank"}
+[Code](https://github.com/MengZephyr/DynamicNeuralGarments){:target="_blank"}
 
 ## BibTex
