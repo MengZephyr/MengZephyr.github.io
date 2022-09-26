@@ -33,6 +33,6 @@ alternatives.
 
 [Webpage](https://geometry.cs.ucl.ac.uk/projects/2022/MotionDeepGarment/){:target="_blank"}, <br />
 [Code](https://github.com/MengZephyr/Motion-Guided-Deep-Dynamic-3D-Garment){:target="_blank"}, <br />
-[Paper](https://arxiv.org/pdf/2209.11449.pdf)
+[Paper](https://arxiv.org/pdf/2209.11449.pdf){:target="_blank"}
 
 ## BibTex
