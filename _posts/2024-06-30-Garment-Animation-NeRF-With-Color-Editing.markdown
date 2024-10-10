@@ -6,7 +6,7 @@ img: p8.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Publication]
 ---
-<center>RenkeWang, Meng Zhang(Corresponding author), Jun Li, Jian Yang</center>
+<center>Renke Wang, Meng Zhang(Corresponding author), Jun Li, Jian Yang</center>
 
 **Eurographics Symposium on Computer Animation 2024**
 
