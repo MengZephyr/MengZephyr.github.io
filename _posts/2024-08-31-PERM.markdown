@@ -1,0 +1,25 @@
+---
+layout: post
+title: Perm:A Parametric Representation for Multi-Style 3D Hair Modeling
+description: # Add post description (optional)
+img: p10.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Publication]
+---
+<center>Chengan He, Xin Sun, Zhixin Shu, Fujun Luan, Sören Pirk, Jorge Alejandro Amador Herrera, Dominik L. Michels, Tuanfeng Y. Wang, Meng Zhang, Holly Rushmeier, Yi Zhou</center>
+
+**arXiv**
+
+## Abstract
+We present Perm, a learned parametric model of human 3D hair designed to facilitate various hair-related applications. Unlike previous work that jointly models the global hair shape and local strand details, we propose to disentangle them using a PCA-based strand representation in the frequency domain, thereby allowing more precise editing and output control. Specifically, we leverage our strand representation to fit and decompose hair geometry textures into low- to high-frequency hair structures. These decomposed textures are later parameterized with different generative models, emulating common stages in the hair modeling process. We conduct extensive experiments to validate the architecture design of Perm, and finally deploy the trained model as a generic prior to solve task-agnostic problems, further showcasing its flexibility and superiority in tasks such as 3D hair parameterization, hairstyle interpolation, single-view hair reconstruction, and hair-conditioned image generation.
+
+
+[Webpage](https://cs.yale.edu/homes/che/projects/perm/){:target="_blank"}, <br />
+[Code](https://github.com/c-he/perm){:target="_blank"}, <br />
+[Paper](https://arxiv.org/pdf/2407.19451){:target="_blank"}, <br />
+<!-- [Supplementary video](https://www.youtube.com/watch?v=4CipJBkhg10){:target="_blank"}, <br />
+[Fast Forward](https://www.youtube.com/watch?v=eDdhDJyzzcg){:target="_blank"}, <br />
+[Paper talk](https://www.youtube.com/watch?v=qHpDg_mMMMA){:target="_blank"} -->
+
+
+## BibTex
