@@ -2,7 +2,7 @@
 layout: post
 title: About Me
 description: # Add post description (optional)
-img: aboutMe.jpg # Add image post (optional)
+img: TravelBanff_202508.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Resume]
 ---
