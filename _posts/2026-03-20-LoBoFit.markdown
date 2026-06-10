@@ -1,0 +1,20 @@
+---
+layout: post
+title: LoBoFit\: Flexible Garment Refitting via Local Bone Projections
+description: # Add post description (optional)
+img: p13.jpg # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Publication]
+---
+<center>Meng Zhang(Corresponding Author), Yu Xin, Feiya Guo, Kaizhang Kang, Mengyu Chu, Ruizhen Hu</center>
+
+**SIGGRAPH 2026 **
+
+## Abstract
+Garment refitting, the task of adapting a garment from a source to a target avatar, must preserve the original design features and fine-scale wrinkles, a challenge exacerbated by significant shape variations and varying poses without registration to a shared canonical pose. Existing methods struggle to balance robustness, efficiency, and fidelity of detail: physics-based simulation is costly, data-driven approaches lack generalizability, and geometry optimization in the full vertex space is often ill-conditioned and prone to local minima with unsatisfactory quality. We identify that a fundamental limitation lies in the representation: deforming garments directly in global coordinates couples vertices non-locally, creating a complex and poorly-structured optimization landscape. Therefore, we introduce LoBoFit, a robust refitting method built upon a novel Local Bone Mapping Blending (LoBoMap Blending) representation. Instead of manipulating global vertex positions, LoBoMap Blending expresses garment geometry as a linear blend of its mappings into local bone coordinate frames. This representation is highly expressive and flexible: local bone mappings yield a pose-robust initialization and a well-conditioned parameterization, while blending weights smooth the optimization landscape and broaden the space of plausible solutions for stable convergence with fine-scale detail preservation. The subsequent refinement efficiently resolves collisions and preserves details by optimizing localized residuals, effectively decomposing the complex global deformation into manageable subproblems. Our experiments demonstrate that LoBoFit reliably refits high-resolution, single- and multi-layer garments across avatars with large shape and topological differences, while faithfully preserving intricate wrinkles and the intended fit style, outperforming state-of-the-art methods in robustness and output quality.
+
+
+[Paper](https://arxiv.org/abs/2605.07450){:target="_blank"}, <br />
+[Supplemental video](https://www.youtube.com/watch?v=5HFVixi_ODg&t=1s){:target="_blank"}, <br />
+
+## BibTex
