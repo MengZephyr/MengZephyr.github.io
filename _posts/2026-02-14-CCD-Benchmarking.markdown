@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Floating-Point Robustness in Parametric Surface Continuous Collision Detection: From Algorithm to Benchmarking
+title: 'Floating-Point Robustness in Parametric Surface Continuous Collision Detection: From Algorithm to Benchmarking'
 description: # Add post description (optional)
 img: p12.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
