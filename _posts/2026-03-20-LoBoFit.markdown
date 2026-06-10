@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'LoBoFit: Flexible Garment Refitting via Local Bone Projections'
+title: 'LoBoFit: Flexible Garment Refitting via Local Bone Mapping Blending'
 description: # Add post description (optional)
 img: p13.jpg # Add image post (optional)
 fig-caption: # Add figcaption (optional)
