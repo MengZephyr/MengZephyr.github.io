@@ -16,5 +16,6 @@ Garment refitting, the task of adapting a garment from a source to a target avat
 
 [Paper](https://arxiv.org/abs/2605.07450){:target="_blank"}, <br />
 [Supplemental video](https://www.youtube.com/watch?v=5HFVixi_ODg&t=1s){:target="_blank"}, <br />
+[Code](https://github.com/MengZephyr/LoBoFit/tree/main){:target="_blank"}, <br />
 
 ## BibTex
