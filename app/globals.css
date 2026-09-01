@@ -667,6 +667,11 @@ a {
   line-height: 1.46;
 }
 
+.publication-inner .paper-authors strong {
+  color: var(--ink);
+  font-weight: 760;
+}
+
 .publication-inner .paper-summary {
   max-width: 780px;
   margin: 10px 0 0;

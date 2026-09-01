@@ -435,7 +435,17 @@ export default function Home() {
                     <span>{publication.venue}</span>
                   </div>
                   <h3>{publication.title}</h3>
-                  <p className="paper-authors">{publication.authors}</p>
+                  <p className="paper-authors">
+                    {publication.authors
+                      .split(/(Meng Zhang)/g)
+                      .map((part, partIndex) =>
+                        part === "Meng Zhang" ? (
+                          <strong key={`meng-zhang-${partIndex}`}>{part}</strong>
+                        ) : (
+                          <span key={`author-text-${partIndex}`}>{part}</span>
+                        ),
+                      )}
+                  </p>
                   <p className="paper-summary">{publication.summary}</p>
                   {publication.links.length > 0 && (
                     <div className="paper-links" aria-label={`Resources for ${publication.title}`}>
