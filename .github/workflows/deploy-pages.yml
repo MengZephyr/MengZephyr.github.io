@@ -38,6 +38,9 @@ jobs:
       - name: Build static website
         run: pnpm run build
 
+      - name: Add custom domain
+        run: cp CNAME dist/client/CNAME
+
       - name: Verify static entry point
         run: test -f dist/client/index.html
 
