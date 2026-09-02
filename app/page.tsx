@@ -471,15 +471,35 @@ export default function Home() {
           <p className="eyebrow">Let’s make something move</p>
           <h2>Research starts with a good conversation.</h2>
         </div>
-        <a className="contact-link" href="mailto:lynnzephyr@gmail.com">
-          <span>lynnzephyr@gmail.com</span>
-          <i aria-hidden="true">↗</i>
-        </a>
+        <div className="contact-rail">
+          <div
+            className="collaboration-map"
+            role="img"
+            aria-label="World map showing regions where research collaborators are based"
+          >
+            <img className="collaboration-world-map" src="/world-map.svg" alt="" />
+            <span className="collaboration-map-sweep" aria-hidden="true" />
+            <span className="collaboration-pin pin-london" aria-hidden="true" />
+            <span className="collaboration-pin pin-new-haven" aria-hidden="true" />
+            <span className="collaboration-pin pin-jeddah" aria-hidden="true" />
+            <span className="collaboration-pin pin-mpi" aria-hidden="true" />
+            <span className="collaboration-pin pin-zurich" aria-hidden="true" />
+            <span className="collaboration-pin pin-kiel" aria-hidden="true" />
+            <span className="collaboration-pin pin-hangzhou" aria-hidden="true" />
+            <span className="collaboration-pin pin-beijing" aria-hidden="true" />
+            <span className="collaboration-pin pin-hong-kong" aria-hidden="true" />
+            <span className="collaboration-pin pin-xian" aria-hidden="true" />
+            <span className="collaboration-pin pin-nanjing" aria-hidden="true" />
+          </div>
+          <a className="contact-link" href="mailto:lynnzephyr@gmail.com">
+            <span>lynnzephyr@gmail.com</span>
+            <i aria-hidden="true">↗</i>
+          </a>
+        </div>
       </section>
 
       <footer className="site-footer shell">
         <p>© 2026 Meng Zhang (Zephyr)</p>
-        <p className="footer-credit">Co-designed with ChatGPT ✦</p>
       </footer>
     </main>
   );

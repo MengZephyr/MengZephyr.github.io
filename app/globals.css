@@ -283,6 +283,8 @@ a {
   border: 0;
   border-radius: 15px;
   background: var(--surface);
+  dynamic-range-limit: standard;
+  filter: brightness(0.94) saturate(0.98);
   object-fit: cover;
   object-position: center;
 }
@@ -719,11 +721,109 @@ a {
   text-align: right;
 }
 
+.collaboration-map {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2048 / 1038.75;
+  overflow: hidden;
+}
+
+.collaboration-map::before {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  content: "";
+  background-image: radial-gradient(rgba(23, 51, 59, 0.1) 0.75px, transparent 0.75px);
+  background-size: 20px 20px;
+  mask-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.64), transparent 78%);
+  pointer-events: none;
+}
+
+.collaboration-world-map {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: 100%;
+  height: auto;
+  opacity: 0.92;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  user-select: none;
+}
+
+.collaboration-map-sweep {
+  position: absolute;
+  top: 5%;
+  bottom: 5%;
+  left: -18%;
+  z-index: 2;
+  width: 18%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.62), transparent);
+  filter: blur(8px);
+  animation: collaboration-sweep 7.5s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.collaboration-pin {
+  position: absolute;
+  z-index: 3;
+  width: 9px;
+  height: 9px;
+  border: 2px solid var(--surface);
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 0 0 rgba(39, 180, 175, 0.46);
+  transform: translate(-50%, -50%);
+  animation: collaboration-pulse 2.8s ease-out infinite;
+}
+
+.pin-london { left: 47.35%; top: 18.23%; }
+.pin-new-haven { left: 28.67%; top: 24.41%; animation-delay: -0.7s; }
+.pin-jeddah { left: 57.67%; top: 36.68%; animation-delay: -1.4s; }
+.pin-mpi { left: 49.56%; top: 19.86%; animation-delay: -2.1s; }
+.pin-zurich { left: 49.4%; top: 20.71%; animation-delay: -0.35s; }
+.pin-kiel { left: 49.8%; top: 16.56%; animation-delay: -1.05s; }
+.pin-hangzhou { left: 79.08%; top: 31.23%; animation-delay: -1.75s; }
+.pin-beijing { left: 77%; top: 25.27%; animation-delay: -2.45s; }
+.pin-hong-kong { left: 78.03%; top: 36.16%; animation-delay: -0.9s; }
+.pin-xian { left: 75.71%; top: 28.71%; animation-delay: -1.6s; }
+.pin-nanjing { left: 78.53%; top: 30.12%; animation-delay: -2.3s; }
+
+@keyframes collaboration-pulse {
+  0%, 32% {
+    box-shadow: 0 0 0 0 rgba(39, 180, 175, 0.48);
+  }
+  78%, 100% {
+    box-shadow: 0 0 0 10px rgba(39, 180, 175, 0);
+  }
+}
+
+@keyframes collaboration-sweep {
+  0%, 12% {
+    transform: translateX(0);
+    opacity: 0;
+  }
+  30%, 72% {
+    opacity: 0.78;
+  }
+  88%, 100% {
+    transform: translateX(660%);
+    opacity: 0;
+  }
+}
+
 .contact {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(360px, 0.75fr);
   gap: 80px;
   align-items: end;
+}
+
+.contact-rail {
+  display: grid;
+  gap: 18px;
+  min-width: 0;
 }
 
 .contact h2 {
@@ -791,6 +891,11 @@ a {
   }
 
   .ticker-track {
+    animation: none;
+  }
+
+  .collaboration-map-sweep,
+  .collaboration-pin {
     animation: none;
   }
 
@@ -984,6 +1089,11 @@ a {
 
   .contact {
     gap: 50px;
+  }
+
+  .collaboration-pin {
+    width: 7px;
+    height: 7px;
   }
 
   .contact-link {
